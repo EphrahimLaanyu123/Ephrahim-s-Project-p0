@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f0463686ec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/download (1).png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <p>SOFTWARE ENGINEER</p>
+                <h1>Hi, I'm Ephrahim </h1>
+            </div>
+        </div>
+    </div>
+    
+<!-----------about--------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/download.jpeg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>As a software engineer,<br> I design, develop, and maintain <br>software systems.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link " onclick = "opentab('Players')">Education</p>
+                    <p class="tab-links" onclick= "opentab('Trophies')">Achievments</p>
+                    
+                </div>
+                <div class="tab-contents active-tab" id="Players">
+                    <ul>
+                        <li><span>I studied at Moringa<br> School and succesfully<br> passed in my software <br>engineering class</span></li>
+                        <li>Haaland</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Trophies">
+                    <ul>
+                        <li><span>Premiere League</span></li>
+                        <li><span>Champions League</span></li>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> contact@anjy.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href=""></a><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""></a><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""></a><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""></a><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+               <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                <button type="submit" class="btn btn2"> Submit</button>
+               </form>
+                 
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright by Ephrahim. By Laanyu</p>
+    </div>
+</div>
+
+
+<div class="services-section">
+    <h2>Services I Offer</h2>
+    <ul>
+      <li>
+        <h3>Web Development</h3>
+        <p>I specialize in building responsive and user-friendly websites using modern web technologies.</p>
+      </li>
+      <li>
+        <h3>Mobile App Development</h3>
+        <p>I develop native and cross-platform mobile applications for iOS and Android platforms.</p>
+      </li>
+      <li>
+        <h3>Software Architecture</h3>
+        <p>I design scalable and efficient software architectures that meet the specific needs of businesses.</p>
+      </li>
+      <li>
+        <h3>Code Review</h3>
+        <p>I provide code review services to ensure high-quality and maintainable codebases.</p>
+      </li>
+    </ul>
+  </div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
